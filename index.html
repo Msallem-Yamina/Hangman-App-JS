@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungman App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+        <div class="title">Hungman</div>
+        <div class="score">Best Score : <span></span></div>
+        <div class="category">
+            Word From: <span></span>
+        </div>
+    </header>
+    <hr                 />
+    <section>
+        <div class="draw">
+            <div class="the-draw">
+                <div class="the-stand"></div>
+                <div class="the-hang"></div>
+                <div class="the-rope"></div>
+                <div class="the-man">
+                    <div class="head"></div>
+                    <div class="body"></div>
+                    <div class="hands"></div>
+                    <div class="legs"></div>
+                </div>
+            </div>
+        </div>
+        <div class="letters"></div>
+    </section>
+    <hr                  />
+    <footer>
+      <div class="letters-guess"></div>
+    </footer>
+  </main>
+  <audio id="fail" src="Fail.mp3"></audio>
+  <audio id="success" src="Success.mp3"></audio>
+<script src="main.js"></script>
+</body>
+</html>
